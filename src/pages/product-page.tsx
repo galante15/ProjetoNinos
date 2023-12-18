@@ -1,4 +1,7 @@
 export default function teste() {
-    return <h1>Página de produto</h1>
-
+    return (
+        <div className="flex items-center justify-center w-full h-screen">
+            <h1>Product Page</h1>
+        </div>
+    );
 }

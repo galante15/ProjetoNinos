@@ -25,9 +25,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-h1{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
