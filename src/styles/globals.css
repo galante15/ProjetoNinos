@@ -32,3 +32,54 @@ body {
   color: white;
   padding-top: 10px;
 }
+.btn{
+  display: flex;
+  align-items: flex-end;
+  width: 400px;
+  height: 100px;
+  padding-top: 20px;
+  flex-direction: column;
+}
+
+.btnAdicionar{
+  background-color: red;
+  width: 15px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+/* .adionar:hover{
+  background-color: rgb(226, 43, 156);
+  color: black;
+} */
+
+.btnDiminuir{
+  background-color: red;
+  width: 15px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.descricao{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.descricaoRefeicao{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+
+
+
