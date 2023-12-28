@@ -5,32 +5,32 @@
 
 .topbar-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px; 
   border-bottom: 1px solid #eaeaea;
-}
+} 
 
-.shopping-cart-icon-wrapper {
-  position: relative;
-  padding: 6px;
-  border-radius: 50%;
-  background: #eaeaea90;
+/* .shopping-cart-icon-wrapper {
+  position: relative; 
+  padding: 6px; 
+  border-radius: 50%; 
+  background: #eaeaea90; 
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
-}
+} */
 
-.shopping-cart-icon {
+/* .shopping-cart-icon {
   width: 20px;
   height: 20px;
-}
+} */
 
-.shopping-cart-icon-wrapper:hover {
+/* .shopping-cart-icon-wrapper:hover {
   background: #eaeaea;
-}
+} */
 
 .Logo{
   text-align: center;
