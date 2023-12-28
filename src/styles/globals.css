@@ -3,28 +3,33 @@
 @tailwind utilities;
 
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.topbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eaeaea;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.shopping-cart-icon-wrapper {
+  position: relative;
+  padding: 6px;
+  border-radius: 50%;
+  background: #eaeaea90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.shopping-cart-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.shopping-cart-icon-wrapper:hover {
+  background: #eaeaea;
 }
 
 .Logo{
@@ -34,6 +39,7 @@ body {
   color: white;
   padding-top: 10px;
 }
+
 .btn{
   display: flex;
   align-items: flex-end;  
@@ -52,10 +58,6 @@ body {
   margin-bottom: 8px;
 }
 
-/* .adionar:hover{
-  background-color: rgb(226, 43, 156);
-  color: black;
-} */
 
 .btnDiminuir{
   background-color: red;
