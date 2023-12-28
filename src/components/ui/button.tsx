@@ -6,5 +6,6 @@ export function Button(){
             <button className='btnAdicionar'>+</button>
             <button className='btnDiminuir'>-</button> 
         </div>
+
     )
 }
